@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(13, 19, 13);
+}
+.contact > div {
+    width: 30%;
+    height: 20vh;
+}
+.contact__time__title,
+.contact__info__title{
+    color: white;
+    font-size: x-large;
+    padding: 35px 0;
+    border-bottom: 1px dashed grey;
+}
+.contact__info__content,
+.contact__time__content{
+    margin-top: 20px;
+}
+.contact__time__content{
+    display: flex;
+}
+
+.contact__time__week
+.contact__time__time{
+    width: 40%;
+    height: 100%;
+}
+.contact__time__time{
+    margin-left: auto;
+}
+
+.contact p{
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px 0;
+    color: grey;
+}
+
+.contact a{
+    text-decoration: none;
+    color: grey;
+}
