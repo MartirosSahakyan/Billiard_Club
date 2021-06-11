@@ -40,6 +40,9 @@ body {
   .contact{
     height: 50vh;
   }
+  .contact > div {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 480px) {

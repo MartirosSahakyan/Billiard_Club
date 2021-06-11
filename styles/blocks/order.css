@@ -51,6 +51,7 @@
 }
 .order__form select{
     width: 30%;
+    padding: 7px !important;
 }
 .order__header{
     position: absolute;

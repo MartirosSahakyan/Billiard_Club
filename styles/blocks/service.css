@@ -13,7 +13,7 @@
 }
 .card__container:hover{
   box-shadow: 0 12px 19px 0 rgba(214, 199, 199, 0.582);
-  cursor: pointer;
+  cursor: grab;
 }
 .card__img {
   width: 100%;
@@ -51,5 +51,5 @@
 
 .card__container button:hover{
   background-color: var(--secondary-bgcolor-btn);
-  cursor: pointer;
+  cursor: grabbing;
 }
