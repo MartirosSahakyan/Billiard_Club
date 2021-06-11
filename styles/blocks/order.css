@@ -1,17 +1,21 @@
 .order{
     background-image: url(../../assets/images/1.jpg);  
 }
+.order__form__container{
+    width: 100%;
+    height: fit-content;
+}
 .order__form{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
     width: 80%;
-    height: 80%;
-    /* background: white; */
     display: flex;
-    /* flex-direction: row; */
 }
 .form__left .form__right{
     width: 50%;
     height: 50%;
-    /* margin: 10px; */
 }
 .order__form input,textarea, select, button{
     color: white;
@@ -29,7 +33,6 @@
     font-weight: 300;
     letter-spacing: 5px;
     width: 30%;
-    /* color: white; */
 }
 .order__form button:hover{
     cursor: pointer;
@@ -51,4 +54,15 @@
 .order__form select{
     width: 30%;
 }
+.order__header{
+    position: absolute;
+    color: white;
+    letter-spacing: var(--title-letter-space);
+    font-size: xxx-large;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+  
 

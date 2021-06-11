@@ -12,7 +12,7 @@
 }
 .contact__time__title,
 .contact__info__title{
-    color: white;
+    color: var(--primary-text-color);
     font-size: x-large;
     padding: 35px 0;
     border-bottom: 1px dashed grey;
@@ -38,7 +38,7 @@
     font-size: larger;
     font-weight: bold;
     margin: 10px 0;
-    color: grey;
+    color: var(--secondary-text-color);
 }
 
 .contact a{

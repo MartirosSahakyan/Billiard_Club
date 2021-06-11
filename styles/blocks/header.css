@@ -17,14 +17,15 @@
     position: relative;
     font-size: 50px;
     font-weight: var(--main-font-weight);
-    color: white;
+    color: var(--primary-text-color);
     animation-name: fallDown;
     animation-duration: 2.5s;
     letter-spacing: var(--title-letter-space);
     line-height: 2;
   }
   .header__paragraph {
-    color: white;
+    color: var(--primary-text-color);
     letter-spacing: 5px;
     font-size: xx-large;
+    margin-top: 20px;
   }

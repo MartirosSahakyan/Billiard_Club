@@ -1,8 +1,7 @@
 :root{
     --title-letter-space: 10px;
-    --main-bg-color: lightgrey;
     --main-font-weight: 900;
-    --section-margin: 0 60px;
-    --main-text-color: white;
+    --primary-text-color: white;
+    --secondary-text-color: grey;
     --bg-color-form: rgb(94, 201, 201)
 }

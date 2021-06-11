@@ -3,7 +3,7 @@
 }
 .about__header{
   position: absolute;
-  color: white;
+  color: var(--primary-text-color);
   letter-spacing: var(--title-letter-space);
   font-size: xxx-large;
   text-align: center;
@@ -32,12 +32,12 @@
 }
 .about__flex-item__count{
   text-align: center;
-  color: white;
+  color: var(--primary-text-color);
   font-size: 70px;
   margin-bottom: 10px;
 }
 .about__flex-item__text{
-  color: white;
+  color: var(--primary-text-color);
   text-align: center;
   font-size: 30px;
 }

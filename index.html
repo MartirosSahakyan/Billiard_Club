@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Billiard`s club" />
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- google font end-->
+    <!-- font awesome start -->
     <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- font awesome end-->
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all"> <!--  ? -->
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="icon" type="image/png" href="./assets/images/favicon.ico"/>
@@ -106,9 +112,35 @@
 
         </section>
        
-            <h2 class="title-section"> ABOUT US </h2>
+            <!-- <h2 class="title-section"> Order </h2> -->
+
+            <section class="order main-bg-image">
+                <h3 class="order__header">Order a table</h3>
+                <form class="order__form">
+                    <div class="form__left">
+                        <input type="text" placeholder="Name">
+                        <label for="date">Choose Date and Time:</label>
+                        <input type="datetime-local" id="date" required>
+                        <label for="table">Choose a Table:</label>
+                        <br>
+                            <select name="table" id="table">
+                                <option value="russian">Russian</option>
+                                 <option value="pool">Pool</option>
+                                <option value="snooker">Snooker</option>
+                            </select>
+                        </div>
+                        <div class="form__right">
+                            <input type="tel" placeholder="Phone Number">
+                            <textarea placeholder="Message" rows="3" cols="45"  ></textarea>
+                            <button type="submit" >SEND </button>
+                            
+                        </div>
+                </form>
+            </section>
+
+              <!-- <h2 class="title-section"> ABOUT US </h2> -->
           
-            <section class="about main-bg-image">
+              <section class="about main-bg-image">
                 <h3 class="about__header">About The Club</h3>
                 <div class="about__flex-container">
                     <div class="about__flex-item center-flex">
@@ -133,35 +165,10 @@
                     </div>
                 </div>
             </section>
-            
-            <h2 class="title-section"> Order </h2>
 
-            <section class="order main-bg-image">
-                <form class="order__form center-position">
-                    <div class="form__left">
-                        <input type="text" placeholder="Name">
-                        <label for="date">Choose Date and Time:</label>
-                        <input type="datetime-local" id="date" required>
-                        <label for="table">Choose a Table:</label>
-                        <br>
-                            <select name="table" id="table">
-                                <option value="russian">Russian</option>
-                                 <option value="pool">Pool</option>
-                                <option value="snooker">Snooker</option>
-                            </select>
-                        </div>
-                        <div class="form__right">
-                            <input type="tel" placeholder="Phone Number">
-                            <textarea placeholder="Message" rows="3" cols="45"  ></textarea>
-                            <button type="submit" >SEND </button>
-                            
-                        </div>
-                </form>
-            </section>
-
-            <h2 class="title-section"> Contacts </h2>
-    </main>
-
+        </main>
+        
+        <!-- <h2 class="title-section"> Contacts </h2> -->
     <footer class="contact">
 
         <div class="contact__time">
