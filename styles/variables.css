@@ -3,5 +3,7 @@
     --main-font-weight: 900;
     --primary-text-color: white;
     --secondary-text-color: grey;
-    --bg-color-form: rgb(124, 190, 133)
+    --bg-color-form: rgb(124, 190, 133);
+    --primary-bgcolor-btn: rgb(124, 190, 133);
+    --secondary-bgcolor-btn: tomato;
 }

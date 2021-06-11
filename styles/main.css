@@ -25,9 +25,10 @@ body {
   }
   .order__form {
     flex-direction: column;
+    bottom: 3%;
   }
   .order {
-    height: 130vh;
+    height: 100vh;
   }
   .about__flex-item__img {
     width: 60px;
@@ -73,6 +74,9 @@ body {
   .order__form select,
   .order__form button {
     width: 90%;
+  }
+  .order__header{
+    font-size: xx-large
   }
   .nav{
     width: 100%;

@@ -1,13 +1,9 @@
 .order{
     background-image: url(../../assets/images/bgImages/BgOrder.jpg);  
 }
-.order__form__container{
-    width: 100%;
-    height: fit-content;
-}
 .order__form{
     position: absolute;
-    bottom: 0%;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%,0%);
     width: 80%;
@@ -17,7 +13,10 @@
     width: 50%;
     height: 50%;
 }
-.order__form input,textarea, select, button{
+.order__form input,
+.order__form textarea, 
+.order__form select, 
+.order__form button{
     font-size: 18px;
     background-color: var(--bg-color-form);
     padding: 15px;
@@ -27,7 +26,7 @@
     border: 1px solid white;
 }
 .order__form button{
-    background-color: var(--bg-color-form);
+    background-color: var(--primary-bgcolor-btn);
     text-align: center;
     font-weight: 300;
     letter-spacing: 5px;
@@ -35,7 +34,7 @@
 }
 .order__form button:hover{
     cursor: pointer;
-    background-color: tomato;
+    background-color: var(--secondary-bgcolor-btn);
 }
 .order__form input:focus{
     background-color: white;

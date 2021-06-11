@@ -4,7 +4,7 @@
 }
 .card__container {
   width: 30%;
-  height: 400px;
+  /* height: 400px; */
   padding: 15px;
   margin: 20px;
   background-color: rgb(163, 194, 171);
@@ -31,4 +31,25 @@
 .card__desc__type {
   margin-top: 4px;
   font-size: large;
+}
+
+.card-btn__container{
+  width: 100%;
+}
+
+.card__container button{
+  background-color: var(--primary-bgcolor-btn);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.card__container button:hover{
+  background-color: var(--secondary-bgcolor-btn);
+  cursor: pointer;
 }
