@@ -1,5 +1,5 @@
 .order{
-    background-image: url(../../assets/images/1.jpg);  
+    background-image: url(../../assets/images/bgImages/BgOrder.jpg);  
 }
 .order__form__container{
     width: 100%;
@@ -18,7 +18,6 @@
     height: 50%;
 }
 .order__form input,textarea, select, button{
-    color: white;
     font-size: 18px;
     background-color: var(--bg-color-form);
     padding: 15px;

@@ -18,7 +18,7 @@
     <title>Billiard Club</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="header__text">
           <h1 class="header__title">
             Welcome <br />
@@ -32,23 +32,23 @@
       <div class="nav-container center-flex">
           <nav class="nav ">
               <div class="nav__item">
-                  <a href="">Home</a>
+                  <a href="#home">Home</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="">Service</a>
+                  <a href="#service">Service</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="">Order</a>
+                  <a href="#order">Order</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="">About</a>
+                  <a href="#about">About</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="">Contact</a>
+                  <a href="#contact">Contact</a>
                   <div class="nav__line"></div>
               </div>      
            </nav>
@@ -58,12 +58,13 @@
         <h2 class="title-section">
             SERVICES
         </h2>
-        <section class="service">
+
+        <section class="service" id="service">
 
             <div class="card-section">
 
                 <div class="card__container">
-                    <img class="card__img" src="./assets/images/1.jpg"></img>
+                    <img class="card__img" src="./assets/images/service/rusBilliard.jpg"></img>
                     <div class="card__desc">
                         <p class="card__desc__place">Common hall</p>
                         <p class="card__desc__type"> <i>Type:</i>  Russian</p>
@@ -72,38 +73,38 @@
                     </div>
 
                 <div class="card__container">
-                    <img class="card__img" src="./assets/images/1.jpg"></img>
+                    <img class="card__img" src="./assets/images/service/snookerTable.jpg"></img>
                     <div class="card__desc">
                         <p class="card__desc__place">Common hall</p>
-                        <p class="card__desc__type"> <i>Type:</i>  Russian</p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 000 amd</b></p>
+                        <p class="card__desc__type"> <i>Type:</i>  Snooker</p>
+                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>3 000 amd</b></p>
                         </div>
                     </div>
 
                 <div class="card__container">
-                    <img class="card__img" src="./assets/images/1.jpg"></img>
+                    <img class="card__img" src="./assets/images/service/poolTable.jpg"></img>
                     <div class="card__desc">
                         <p class="card__desc__place">Common hall</p>
-                        <p class="card__desc__type"> <i>Type:</i>  Russian</p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 000 amd</b></p>
+                        <p class="card__desc__type"> <i>Type:</i>  Pool</p>
+                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 500 amd</b></p>
                         </div>
                     </div>
 
                 <div class="card__container">
-                    <img class="card__img" src="./assets/images/1.jpg"></img>
+                    <img class="card__img" src="./assets/images/service/vipHall.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Common hall</p>
-                        <p class="card__desc__type"> <i>Type:</i>  Russian</p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 000 amd</b></p>
+                        <p class="card__desc__place">VIP hall</p>
+                        <p class="card__desc__type"> <i>Type:</i>  Russian Billiard</p>
+                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>3 000 amd</b></p>
                         </div>
                     </div>
 
                 <div class="card__container">
-                    <img class="card__img" src="./assets/images/1.jpg"></img>
+                    <img class="card__img" src="./assets/images/service/pokerHall.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Common hall</p>
-                        <p class="card__desc__type"> <i>Type:</i>  Russian</p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 000 amd</b></p>
+                        <p class="card__desc__place">Poker VIP hall</p>
+                        <p class="card__desc__type"> <i>Type:</i> Poker and Russian Billiard</p>
+                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>5 000 amd</b></p>
                         </div>
                     </div>
 
@@ -112,9 +113,7 @@
 
         </section>
        
-            <!-- <h2 class="title-section"> Order </h2> -->
-
-            <section class="order main-bg-image">
+            <section class="order main-bg-image" id="order">
                 <h3 class="order__header">Order a table</h3>
                 <form class="order__form">
                     <div class="form__left">
@@ -138,9 +137,9 @@
                 </form>
             </section>
 
-              <!-- <h2 class="title-section"> ABOUT US </h2> -->
+            
           
-              <section class="about main-bg-image">
+              <section class="about main-bg-image" id="about">
                 <h3 class="about__header">About The Club</h3>
                 <div class="about__flex-container">
                     <div class="about__flex-item center-flex">
@@ -168,8 +167,7 @@
 
         </main>
         
-        <!-- <h2 class="title-section"> Contacts </h2> -->
-    <footer class="contact">
+    <footer class="contact" id="contact">
 
         <div class="contact__time">
             <h4 class="contact__time__title">Opening Time</h4>

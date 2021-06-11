@@ -4,7 +4,8 @@
 ### web page about billiards club with pure HTML5/CSS3
 
 Used concepts
+- BEM
 - FlexBox
 - Responsive
-- CSS variables
-- BEM
+- CSS Variables
+- CSS Animation
