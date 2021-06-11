@@ -1,0 +1,31 @@
+.service {
+    margin: var(--section-margin);
+  }
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card__container {
+    width: 30%;
+    height: 400px;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(230, 230, 230);
+  }
+  .card__img {
+    width: 100%;
+    height: 280px;
+  }
+  .card__desc {
+    margin-top: 10px;
+  }
+  .card__desc__place {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .card__desc__price,
+  .card__desc__type {
+    margin-top: 4px;
+    font-size: large;
+  }

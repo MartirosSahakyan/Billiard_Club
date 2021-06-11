@@ -1,4 +1,6 @@
 @import url(./general.css);
 @import url(./variables.css);
-@import url(./nav.css);
-@import url(../styles/blocks/header.css);
+@import url(./animation.css);
+@import url(./blocks/nav.css);
+@import url(./blocks/header.css);
+@import url(./blocks/service.css);
