@@ -5,3 +5,17 @@
 @import url(./blocks/header.css);
 @import url(./blocks/service.css);
 @import url(./blocks/about.css);
+@import url(./blocks/order.css);
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
