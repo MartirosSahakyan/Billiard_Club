@@ -1,16 +1,14 @@
-# Start Billiard Club
-
-[Billiard Club](https://martirossahakyan.github.io/Billiard_Club/)
- 
-Used  **pure** *HTML5/CSS3*
-
+## pure HTML5/CSS3 project
+---
+### [Start Billiard Club](https://martirossahakyan.github.io/Billiard_Club/)
+ ---
 - BEM
 - FlexBox
 - Responsive
 - CSS Variables
 - CSS Animation
 - Google Fonts
-
+---
 *useful links*
 - [Favicon generator](https://www.favicon-generator.org/)
 - [Sharing debugger Facebook](https://developers.facebook.com/tools/debug/)

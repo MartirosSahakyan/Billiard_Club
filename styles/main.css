@@ -1,5 +1,5 @@
-@import url(./common.css);
 @import url(./variables.css);
+@import url(./common.css);
 @import url(./animation.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/header.css);
@@ -34,7 +34,7 @@ body {
     width: 60px;
     height: 90px;
   }
-  .contact{
+  .contact {
     height: 50vh;
   }
   .contact > div {
@@ -81,10 +81,10 @@ body {
   .order__form button {
     width: 90%;
   }
-  .order__header{
-    font-size: xx-large
+  .order__header {
+    font-size: xx-large;
   }
-  .nav a{
+  .nav a {
     font-size: 15px;
   }
 }
