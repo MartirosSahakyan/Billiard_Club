@@ -34,9 +34,6 @@ body {
     width: 60px;
     height: 90px;
   }
-  .nav{
-    width: 100%;
-  }
   .contact{
     height: 50vh;
   }
@@ -46,6 +43,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .header__title {
+    font-size: 35px;
+  }
+  .header__title {
+    font-size: x-large;
+  }
   .card__container {
     width: 80%;
   }
@@ -81,7 +84,7 @@ body {
   .order__header{
     font-size: xx-large
   }
-  .nav{
-    width: 100%;
+  .nav a{
+    font-size: 15px;
   }
 }
