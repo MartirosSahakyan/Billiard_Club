@@ -1,5 +1,6 @@
 [Favicon generator](https://www.favicon-generator.org/)
 [Sharing debugger Facebook](https://developers.facebook.com/tools/debug/)
+[Armenian Fonts](https://armenia.renderforest.com/eng-pages/free-fonts.html)
 
 *meta tages sharing facebook*
 <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />

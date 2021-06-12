@@ -10,3 +10,8 @@ Used  **pure** *HTML5/CSS3*
 - CSS Variables
 - CSS Animation
 - Google Fonts
+
+*useful links*
+- [Favicon generator](https://www.favicon-generator.org/)
+- [Sharing debugger Facebook](https://developers.facebook.com/tools/debug/)
+- [Armenian Fonts](https://armenia.renderforest.com/eng-pages/free-fonts.html)
