@@ -3,6 +3,9 @@ let openModalBtn = document.querySelectorAll(".card-btn");
 let closeModalBtn = document.querySelector(".modal__close");
 let modalTable = document.querySelector("#modal-table");
 let modalPlace = document.querySelector("#modal-place");
+let modalDate = document.querySelector("#modal-date");
+
+setCurrentDate(modalDate)
 
 openModalBtn.forEach((btn) => {
   btn.addEventListener("click", function () {
