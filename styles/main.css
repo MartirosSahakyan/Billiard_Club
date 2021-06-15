@@ -1,13 +1,13 @@
 @import url(./variables.css);
 @import url(./common.css);
 @import url(./animation.css);
+@import url(./modal.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/header.css);
 @import url(./blocks/service.css);
 @import url(./blocks/about.css);
 @import url(./blocks/order.css);
 @import url(./blocks/contact.css);
-/* @import url(./blocks/gallery.css); */
 @import url(./blocks/mobileNavMenu.css);
 
 * {
@@ -113,5 +113,10 @@ a{
   .nav-container{
     display: none;
   }
-  
+  .modal__select-section{
+    display: block;
+  }
+  .modal__select{
+    width: 100%;
+  }
 }
