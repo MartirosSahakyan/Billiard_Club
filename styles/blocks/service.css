@@ -52,3 +52,13 @@
   background-color: var(--secondary-bgcolor-btn);
   cursor: grabbing;
 }
+
+form input:valid,
+form select:valid{
+  box-shadow: 0px 1px 8px 3px rgb(120, 197, 120);
+}
+
+form input:invalid,
+form select:invalid{
+  box-shadow: 0px 1px 8px 3px rgb(216, 137, 137);
+}

@@ -7,7 +7,7 @@
 @import url(./blocks/about.css);
 @import url(./blocks/order.css);
 @import url(./blocks/contact.css);
-@import url(./blocks/gallery.css);
+/* @import url(./blocks/gallery.css); */
 @import url(./blocks/mobileNavMenu.css);
 
 * {
