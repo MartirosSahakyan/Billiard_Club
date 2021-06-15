@@ -8,6 +8,8 @@
 - CSS Variables
 - CSS Animation
 - CSS Modal
+- Form Validation
+- Slider
 - DOM, EventListeners
 - Google Fonts
 ---
