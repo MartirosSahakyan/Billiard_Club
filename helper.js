@@ -3,9 +3,9 @@ function setCurrentDate(tag) {
   const dateNow = new Date();
   let year = dateNow.getFullYear();
   let month = makeTwoDigit(dateNow.getMonth() + 1);
-  let date = dateNow.getDate();
-  let hour = dateNow.getHours();
-  let minute = dateNow.getMinutes();
+  let date = makeTwoDigit(dateNow.getDate());
+  let hour = makeTwoDigit(dateNow.getHours());
+  let minute = makeTwoDigit(dateNow.getMinutes());
   let dateValue = `${year}-${month}-${date}T${hour}:${minute}`;
   tag.setAttribute("value", dateValue);
 }
