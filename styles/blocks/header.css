@@ -9,7 +9,7 @@
 .header_arm-eng {
   position: absolute;
   top: 40px;
-  right: 50px;
+  left: 50px;
   color: var(--primary-text-color);
   font-size: larger;
 }
@@ -48,7 +48,7 @@
 }
 
 .call-container {
-  display: block;
+  display: none;
   width: 60px;
   height: 60px;
   position: fixed;
