@@ -7,6 +7,8 @@
 - Responsive
 - CSS Variables
 - CSS Animation
+- CSS Modal
+- DOM, EventListeners
 - Google Fonts
 ---
 *useful links*
