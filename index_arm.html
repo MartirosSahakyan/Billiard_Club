@@ -40,14 +40,19 @@
         <div class="header_arm-eng">
             <a href="./index.html">eng </a> / <a href="./index_arm.html">հայ</a>
         </div>
-        <div class="bar-icon center-flex" > <i class="fa fa-bars"></i> </div>
+        <div class="bar-icon" > 
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </div>
         <div class="mobile-menu__container" >
             <div class="mobile-menu">
-                <a href="#home">Home</a>
-                <a href="#service">Service</a>
-                <a href="#order">Order</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Գլխավոր</a>
+                <a href="#service">Սերվիս</a>
+                <a href="#about">Մեր Մասին</a>
+                <a href="#order">Պատկերասրահ</a>
+                <a href="#order">Պատվիրել</a>
+                <a href="#contact">Կոնտակտ</a>
             </div>
         </div>
         <div class="call-container">
@@ -55,38 +60,37 @@
         </div>
         <div class="header__text">
           <h1 class="header__title">
-            Welcome <br />
-            Start Billiard Club
+                Start Բիլիարդ Ակումբ
           </h1>
           <hr />
-          <p class="header__paragraph">Club for professionals and lowers</p>
+          <p class="header__paragraph">Ակումբ ոչ միայն պրոֆեսիոնալների համար</p>
         </div>
       </header>
 
       <div class="nav-container center-flex">
           <nav class="nav">
               <div class="nav__item">
-                  <a href="#home">Home</a>
+                  <a href="#home">Գլխավոր</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="#service">Service</a>
+                  <a href="#service">Սերվիս</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="#order">Order</a>
+                <a href="#about">Մեր Մասին</a>
+                <div class="nav__line"></div>
+            </div>
+            <div class="nav__item">
+                <a href="#gallery">Պատկերասրահ/a>
+                <div class="nav__line"></div>
+            </div>
+              <div class="nav__item">
+                  <a href="#order">Պատվիրել</a>
                   <div class="nav__line"></div>
               </div>
               <div class="nav__item">
-                  <a href="#gallery">Gallery</a>
-                  <div class="nav__line"></div>
-              </div>
-              <div class="nav__item">
-                  <a href="#about">About</a>
-                  <div class="nav__line"></div>
-              </div>
-              <div class="nav__item">
-                  <a href="#contact">Contact</a>
+                  <a href="#contact">Կոնտակտ</a>
                   <div class="nav__line"></div>
               </div>      
            </nav>
@@ -99,45 +103,45 @@
                 <form class="order__form" style="display: flex; flex-direction: column;">  
                     <div class="modal__select-section">
                         <div class="modal__select" >
-                         <label for="table">Selected Table:</label>
+                         <label for="table">Ընտրված Սեղան:</label>
                          <select style="color: red; width: 90%;"  name="table" id="table" disabled>
                              <option  id="modal-table"></option>
                          </select>     
                         </div>               
                         <div class="modal__select">
-                         <label for="hall">Selected Hall:</label>
+                         <label for="hall">Ընտրված Սրահ:</label>
                          <select style="color: red; width: 90%;"  name="hall" id="hall" disabled>
                              <option  id="modal-place"></option>
                          </select> 
                         </div>
                      </div>                   
-                        <label for="name">Insert your Name:</label>                        
-                        <input id="name" type="text" placeholder="Full Name" pattern="[A-Za-z]{3}.+" required>
-                        <label for="modal-date">Choose Date and Time:</label>
+                        <label for="name">Գրեք ձեր Անուն Ազգանունը:</label>                        
+                        <input id="name" type="text" placeholder="Անուն Ազգանուն" pattern="[A-Za-z]{3}.+" required>
+                        <label for="modal-date">Ընտրեք Օրն ու Ժամը:</label>
                         <input type="datetime-local" id="modal-date" required>                                       
-                        <label for="tel">Plz follow this format: 093-05-26-21</label>
-                        <input id="tel" type="tel" placeholder="Phone Number" pattern="[0]{1}[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+                        <label for="tel">Հետչեք նշված ֆորմատին: 093-05-26-21</label>
+                        <input id="tel" type="tel" placeholder="Հեռախոսահամար" pattern="[0]{1}[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
                        <div class="modal__btn-section center-flex">
                         <button type="button" class="modal__close" style="background-color: red;"> CANCEL </button>
-                        <button type="submit" > ORDER </button>                            
+                        <button type="submit" > ՊԱՏՎԻՐԵԼ </button>                            
                        </div>                             
                   </form>                         
             </div>
         </div>    
         <!-- modal end-->
         <h2 class="title-section">
-            SERVICES 
+            ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ 
         </h2>
         <section class="service" id="service">
             <div class="card-section">
                 <div class="card__container">
                     <img class="card__img" src="./assets/images/service/rusBilliard.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Russian Billiard</p>
-                        <p class="card__desc__type"> <i>Place:</i>  Common Hall</p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 000 amd</b></p>
+                        <p class="card__desc__place">Ռուսական Բիլիարդ</p>
+                        <p class="card__desc__type"> <i>Սրահ:</i>  Ընդհանուր Սրահ</p>
+                        <p class="card__desc__price"> <i>Գին:</i>  1 Ժամը <b>2 000 դրամ</b></p>
                         <div class="card-btn__container center-flex">
-                            <button data-table='russian' data-place='common' class="card-btn">ORDER</button>
+                            <button data-table='russian' data-place='common' class="card-btn">ՊԱՏՎԻՐԵԼ</button>
                         </div>
                         </div>
                     </div>             
@@ -145,11 +149,11 @@
                 <div class="card__container">
                     <img class="card__img" src="./assets/images/service/snookerTable.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Snooker</p>
-                        <p class="card__desc__type"> <i>Place:</i> Common hall </p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>3 000 amd</b></p>
+                        <p class="card__desc__place">Սնուկեր</p>
+                        <p class="card__desc__type"> <i>Սրահ:</i> Ընդհանուր Սրահ </p>
+                        <p class="card__desc__price"> <i>Գին:</i>  1 Ժամը <b>3 000 դրամ</b></p>
                         <div class="card-btn__container center-flex">
-                            <button data-table='snooker' data-place='common' class="card-btn">ORDER</button>
+                            <button data-table='snooker' data-place='common' class="card-btn">ՊԱՏՎԻՐԵԼ</button>
                         </div>    
                     </div>
                     </div>
@@ -157,11 +161,11 @@
                 <div class="card__container">
                     <img class="card__img" src="./assets/images/service/poolTable.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Pool</p>
-                        <p class="card__desc__type"> <i>Place:</i> Common hall </p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>2 500 amd</b></p>
+                        <p class="card__desc__place">Պուլ</p>
+                        <p class="card__desc__type"> <i>Սրահ:</i>  Ընդհանուր Սրահ </p>
+                        <p class="card__desc__price"> <i>Գին:</i>  1 Ժամը <b>2 500 դրամ</b></p>
                         <div class="card-btn__container center-flex">
-                            <button data-table='pool' data-place='common' class="card-btn">ORDER</button>
+                            <button data-table='pool' data-place='common' class="card-btn">ՊԱՏՎԻՐԵԼ</button>
                         </div>    
                     </div>
                     </div>
@@ -169,11 +173,11 @@
                 <div class="card__container">
                     <img class="card__img" src="./assets/images/service/vipHall.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Russian Billiard</p>
-                        <p class="card__desc__type"> <i>Place:</i> <b>VIP Hall</b>  </p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>3 000 amd</b></p>
+                        <p class="card__desc__place">Ռուսական Բիլիարդ/p>
+                        <p class="card__desc__type"> <i>Սրահ:</i> <b>VIP Սրահ</b>  </p>
+                        <p class="card__desc__price"> <i>Գին:</i>  1 Ժամը <b>3 000 դրամ</b></p>
                         <div class="card-btn__container center-flex">
-                            <button data-table='russian' data-place='vip' class="card-btn">ORDER</button>
+                            <button data-table='russian' data-place='vip' class="card-btn">ՊԱՏՎԻՐԵԼ</button>
                         </div>
                     </div>
                     </div>
@@ -181,11 +185,11 @@
                 <div class="card__container">
                     <img class="card__img" src="./assets/images/service/pokerHall.jpg"></img>
                     <div class="card__desc">
-                        <p class="card__desc__place">Poker and Russian Billiard</p>
-                        <p class="card__desc__type"> <i>Place:</i> <b>VIP hall</b></p>
-                        <p class="card__desc__price"> <i>Price:</i>  1 hour <b>5 000 amd</b></p>
+                        <p class="card__desc__place">Պոկեր և Ռուսական Բիլիարդ</p>
+                        <p class="card__desc__type"> <i>Սրահ:</i> <b>VIP Սրահ</b></p>
+                        <p class="card__desc__price"> <i>Գին:</i>  1 Ժամը <b>5 000 դրամ</b></p>
                         <div class="card-btn__container center-flex">
-                            <button data-table='poker' data-place='vip' class="card-btn">ORDER</button>
+                            <button data-table='poker' data-place='vip' class="card-btn">ՊԱՏՎԻՐԵԼ</button>
                         </div>    
                     </div>
                     </div>                   
@@ -194,38 +198,35 @@
         </section>   
         
         <section class="about main-bg-image" id="about">
-            <h3 class="about__header">About The Club</h3>
+            <h3 class="about__header">Ակումբի Մասին/h3>
             <div class="about__flex-container">
                 <div class="about__flex-item center-flex">
                     <img class="about__flex-item__img" src="./assets/images/about/icon-2-150x131.png" alt="aaaa"></img>
                     <p class="about__flex-item__count">8</p>
-                    <p class="about__flex-item__text">Russian Billiard</p>
+                    <p class="about__flex-item__text">Ռուսական Բիլիարդ</p>
                 </div>
                 <div class="about__flex-item center-flex">
                     <img class="about__flex-item__img" src="./assets/images/about/icon-3-150x125.png" alt="aaaa"></img>
                     <p class="about__flex-item__count">1</p>
-                    <p class="about__flex-item__text">Snooker</p>
+                    <p class="about__flex-item__text">Սնուկեր</p>
                 </div>
                 <div class="about__flex-item center-flex">
                     <img class="about__flex-item__img" src="./assets/images/about/icon-3-150x125.png" alt="aaaa"></img>
                     <p class="about__flex-item__count">1</p>
-                    <p class="about__flex-item__text">Pool</p>
+                    <p class="about__flex-item__text">Պուլ</p>
                 </div>
                 <div class="about__flex-item center-flex">
                     <img class="about__flex-item__img" src="./assets/images/about/icon-1-1-150x134.png" alt="aaaa"></img>
                     <p class="about__flex-item__count">2</p>
-                    <p class="about__flex-item__text">VIP Hall</p>
+                    <p class="about__flex-item__text">VIP Սրահ</p>
                 </div>
             </div>
         </section>
 
         <h2 class="title-section">
-            Gallery 
+            ՊԱՏԿԵՐԱՍՐԱՀ 
         </h2>
        <section class="gallery" id="gallery">
-           <div class="gallery__item">
-               <img src="./assets/images/gallery/gallery1.jpg" alt="billiard gallery images">
-           </div>
            <div class="gallery__item">
                <img src="./assets/images/gallery/gallery1.jpg" alt="billiard gallery images">
            </div>
@@ -256,28 +257,31 @@
            <div class="gallery__item">
                <img src="./assets/images/gallery/gallery10.jpg" alt="billiard gallery images">
            </div>
+           <div class="gallery__item">
+               <img src="./assets/images/gallery/gallery11.jpg" alt="billiard gallery images">
+           </div>
        </section>          
           
         <section class="order main-bg-image" id="order">
-            <h3 class="order__header">Order a table</h3>
+            <h3 class="order__header">Պատվիրել Սեղան</h3>
             <form class="order__form">
                 <div class="form__left">
-                    <label for="name">Insert your Name:</label>                        
-                    <input id="name" type="text" placeholder="Full Name" pattern="[A-Za-z]{3}.+" required>
-                    <label for="date">Choose Date and Time:</label>
+                    <label for="name">Գրեք ձեր Անուն Ազգանունը</label>                        
+                    <input id="name" type="text" placeholder="Անուն Ազգանուն" pattern="[A-Za-z]{3}.+" required>
+                    <label for="date">Ընտրեք Օրն ու Ժամը:</label>
                     <input type="datetime-local" id="date" required>
-                    <label for="table">Choose a Table:</label>
+                    <label for="table">Ընտրեք Սեղան</label>
                     <br>
                         <select name="table" id="table" required>
                             <option value=""></option>
-                            <option value="russian">Russian</option>
-                             <option value="pool">Pool</option>
-                            <option value="snooker">Snooker</option>
+                            <option value="russian">Ռուսական</option>
+                             <option value="pool">Պուլ</option>
+                            <option value="snooker">Սնուկեր</option>
                         </select>
                     </div>
                     <div class="form__right">
-                    <label for="tel">Plz follow this format: 093-05-26-21</label>
-                        <input id="tel" type="tel" placeholder="Phone Number" pattern="[0]{1}[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+                    <label for="tel">Հետևեք նշված ֆորմատին: 093-05-26-21</label>
+                        <input id="tel" type="tel" placeholder="Հեռախոսահամար pattern="[0]{1}[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
                         <textarea placeholder="Message" rows="3" cols="45"></textarea>
                         <button type="submit"> SEND </button>                            
                     </div>
@@ -288,12 +292,12 @@
         
         <footer class="contact" id="contact">
         <div class="contact__time">
-            <h4 class="contact__time__title">Opening Time</h4>
+            <h4 class="contact__time__title">Աշծատանքային ժամեր</h4>
             <div class="contact__time__content">
                 <div class="contact__time__week">
-                    <p>Monday-Friday</p>
-                    <p>Saturday</p>
-                    <p>Sunday</p>
+                    <p>Երկուշաբթի-Ուրբաթ</p>
+                    <p>Շաբաթ</p>
+                    <p>Կիրակի</p>
                 </div>
                 <div class="contact__time__time">
                     <p>12.00 - 02.00</p>
@@ -303,11 +307,11 @@
             </div>
         </div>
         <div class="contact__info">
-            <h4 class="contact__info__title">Contact Us</h4>
+            <h4 class="contact__info__title">Կապ մեզ հետ</h4>
             <div class="contact__info__content">
                <p> 
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    Xorenaci Street, Erevan, Armenia</p>
+                    Խորենացի փողոց, Երևան, Հայաստան</p>
                <p>                
                    <a href="info@example.com"> 
                        <i class="fa fa-envelope" aria-hidden="true"></i> 
