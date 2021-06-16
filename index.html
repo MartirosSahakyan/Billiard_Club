@@ -78,6 +78,46 @@
       </div>
 
       <main>
+          <!-- Slide START-->
+            <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="slide slide__fade">
+      <div class="slide__number">1 / 4</div>
+      <img src="./assets/images/slide/slide1.jpg">
+    </div>
+  
+    <div class="slide slide__fade">
+      <div class="slide__number">2 / 4</div>
+      <img src="./assets/images/slide/slide2.jpg">
+    </div>
+  
+    <div class="slide slide__fade">
+      <div class="slide__number">3 / 4</div>
+      <img src="./assets/images/slide/slide3.jpg">
+    </div>
+    
+    <div class="slide slide__fade">
+      <div class="slide__number">4 / 4</div>
+      <img src="./assets/images/slide/slide4.jpg">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="slide__prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slide__next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div class="slide__dot-container">
+    <span class="slide__dot" onclick="currentSlide(1)"></span>
+    <span class="slide__dot" onclick="currentSlide(2)"></span>
+    <span class="slide__dot" onclick="currentSlide(3)"></span>
+    <span class="slide__dot" onclick="currentSlide(4)"></span>
+  </div>
+          <!-- Slide END-->
+
            <!-- modal start -->
         <div class="modal">
             <div class="modal__content">
@@ -230,6 +270,7 @@
                 </div>
         </section>
 
+       
         </main>
         
         <footer class="contact" id="contact">
@@ -284,6 +325,7 @@
         </footer>
         
         <script src="./scripts/helper.js"></script>
+        <script src="./scripts/slide.js"></script>
         <script  src="./scripts/modal.js"></script>
         <script  src="./scripts/index.js"></script>
 </body>
