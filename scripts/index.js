@@ -6,6 +6,7 @@ const slides = document.querySelectorAll(".slide");
 setCurrentDate(userDate);
 
 barIcon.addEventListener("click", function () {
+  barIcon.classList.toggle("bar-icon__change");
   if (mobileMenu.style.display === "block") {
     mobileMenu.style.display = "none";
   } else {
