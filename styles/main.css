@@ -4,7 +4,6 @@
 @import url(./modal.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/gallery.css);
-@import url(./blocks/slider.css);
 @import url(./blocks/header.css);
 @import url(./blocks/service.css);
 @import url(./blocks/about.css);
@@ -124,11 +123,6 @@ a{
   .modal__select{
     width: 100%;
   }
-
-  .slide img{
-    height: 40vh;
-  }
-
   .gallery{
     grid-template-columns: auto;
   }

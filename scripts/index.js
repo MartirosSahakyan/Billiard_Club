@@ -1,6 +1,8 @@
 const barIcon = document.querySelector(".bar-icon");
 const mobileMenu = document.querySelector(".mobile-menu__container");
 const userDate = document.querySelector("#date");
+const slides = document.querySelectorAll(".slide");
+
 setCurrentDate(userDate);
 
 barIcon.addEventListener("click", function () {
@@ -10,3 +12,6 @@ barIcon.addEventListener("click", function () {
     mobileMenu.style.display = "block";
   }
 });
+
+let slideIndex = 0;
+showSlides();
